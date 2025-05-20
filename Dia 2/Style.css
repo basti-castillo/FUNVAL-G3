@@ -1,0 +1,22 @@
+body {
+
+    background-color: lightblue
+}
+
+h1 {
+    color: navy;
+}
+
+h2 {
+    color: lightblue;
+}
+
+#intro {font-size: 1cm;}
+a {
+    color: darkblue;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
