@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0c0b19;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .contenedor {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 250px;
+    margin: 20px auto;
+  }
+  
+  .titulo {
+    margin: 20px ;
+    color: white;
+  }
+  
+  .formulario input[type="email"],
+  .formulario input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background: #111223;
+    border: 1px solid #2b2d42;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+    margin: 10px 0;
+  }
+  
+  .botones input {
+    margin-right: 5px;
+  }
+  
+  .botones .recuperar {
+    color: #b3b3ff;
+    text-decoration: none;
+  }
+  
+  .botones2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .registro, .login {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .registro {
+    background-color: #22304a;
+  }
+  
+  .login {
+    background-color: #8d4cd6;
+  }
+  
+  .redessociales {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  
+  .redessociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .iconos img {
+    
+    width: 30px;
+    height: 30px;
+  }
+  
+  .links {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #8484e7;
+    text-decoration: none;
+  }
+  
+  

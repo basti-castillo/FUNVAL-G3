@@ -1,0 +1,41 @@
+.caja-maestra {
+    border: 2px solid red;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 30px 30px 15px 10px;
+    padding: 30px 10px 15px;
+    width: 400px;
+    height: 350px;
+
+  }
+  
+.caja1 {
+    background-color: green;
+    color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightgray;
+    padding: 30px 20px 30px 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+
+   
+  }
+  
+.caja2 {
+    background-color: lightblue;
+    color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightgray;
+    padding: 30px 20px 30px 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    
+  }
