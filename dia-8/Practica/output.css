@@ -223,10 +223,6 @@
     width: 100px;
     height: 100px;
   }
-  .size-\[400px\] {
-    width: 400px;
-    height: 400px;
-  }
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
@@ -441,23 +437,8 @@
   .bg-yellow-600 {
     background-color: var(--color-yellow-600);
   }
-  .bg-\[url\(\'\.\/1\.jpg\/\'\)\] {
-    background-image: url('./1.jpg/');
-  }
-  .bg-\[url\(\'img\/1\'\)\] {
-    background-image: url('img/1');
-  }
-  .bg-\[url\(\'img\/1\.jpg\'\)\] {
-    background-image: url('img/1.jpg');
-  }
-  .bg-\[url\(\'img\/1\.jpg\/\'\)\] {
-    background-image: url('img/1.jpg/');
-  }
   .bg-\[url\(\.\/1\.jpg\)\] {
     background-image: url(./1.jpg);
-  }
-  .bg-\[url\(\.\/1\.jpg\/\)\] {
-    background-image: url(./1.jpg/);
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
@@ -579,25 +560,9 @@
       opacity: 50%;
     }
   }
-  .md\:size-\[400px\] {
-    @media (width >= 48rem) {
-      width: 400px;
-      height: 400px;
-    }
-  }
   .md\:w-\[400px\] {
     @media (width >= 48rem) {
       width: 400px;
-    }
-  }
-  .md\:w-\[600px\] {
-    @media (width >= 48rem) {
-      width: 600px;
-    }
-  }
-  .md\:w-\[800px\] {
-    @media (width >= 48rem) {
-      width: 800px;
     }
   }
   .md\:grid-cols-3 {

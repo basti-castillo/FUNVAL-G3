@@ -441,23 +441,8 @@
   .bg-yellow-600 {
     background-color: var(--color-yellow-600);
   }
-  .bg-\[url\(\'\.\/1\.jpg\/\'\)\] {
-    background-image: url('./1.jpg/');
-  }
-  .bg-\[url\(\'img\/1\'\)\] {
-    background-image: url('img/1');
-  }
-  .bg-\[url\(\'img\/1\.jpg\'\)\] {
-    background-image: url('img/1.jpg');
-  }
-  .bg-\[url\(\'img\/1\.jpg\/\'\)\] {
-    background-image: url('img/1.jpg/');
-  }
   .bg-\[url\(\.\/1\.jpg\)\] {
     background-image: url(./1.jpg);
-  }
-  .bg-\[url\(\.\/1\.jpg\/\)\] {
-    background-image: url(./1.jpg/);
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
