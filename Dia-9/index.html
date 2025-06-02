@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" class="documento">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Document</title>
+  </head>
+  <body class="dark:bg-[url(https://wallpaperaccess.com/full/632548.jpg)] dark:bg-no-repeat dark:bg-center h-screen dark:bg-cover w-screen">
+    <header class="bg-blue-900 h-[15%] w-[full]">
+      <div>Menu</div>
+      <div>Opciones</div>
+      <div>Secciones</div>
+      <button class="bg-blue-800 text-white p-4 m-10 rounded-2xl dark:bg-white dark:text-blue-800" id="botoncito">
+      dark mode
+      </button>
+    </header>
+    <main class="bg-amber-300">
+      <div>Hola</div>
+    </main>
+
+    <script>
+      let btn = document.querySelector("#botoncito");
+      let dct = document.querySelector(".documento");
+      btn.addEventListener("click", function () {
+        dct.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>
