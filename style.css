@@ -6,10 +6,6 @@
     color: greenyellow;
 }
 
-.practica2 {
-    display: flex;
-}
-
 body {
     font-family: sans-serif;
     background-color: #f4f4f4;
@@ -43,10 +39,13 @@ a:hover, div:hover {
 }
 
 .practica2 {
-    background-color: #28a745;
+    display: flex;
+     background-color: #28a745;
     color: white;
 }
 
-.practica2:hover {
-    background-color: #218838;
+.practica5 {
+    display: flex;
+     background-color: #28a745;
+    color: white;
 }
