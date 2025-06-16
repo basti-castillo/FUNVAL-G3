@@ -1,10 +1,8 @@
-// js/proyectos.js
-
 const proyectos = [
   {
     titulo: "El Mundo Polinesiq",
     descripcion: "Infinidad de soluciones a tus necesidades. Un portal central para nuestros servicios.",
-    imagen: "./meta.png", // Asegúrate que la ruta a tus imágenes sea correcta
+    imagen: "./meta.png",
     link: "#"
   },
   {

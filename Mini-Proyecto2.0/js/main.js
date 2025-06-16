@@ -1,8 +1,5 @@
-// js/main.js
-
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- 1. Carga Dinámica de Habilidades ---
     const habilidadesContainer = document.getElementById('habilidades-container');
     if (habilidadesContainer && typeof habilidades !== 'undefined') {
         function cargarHabilidades() {
@@ -18,8 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 habilidadesContainer.innerHTML += habilidadHTML;
             });
 
-            // Animación sutil al cargar
-            // Usamos un observer para que se active al hacer scroll
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -35,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
         cargarHabilidades();
     }
 
-    // --- 2. Menú con Toggle ---
     const menuBtn = document.getElementById('menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
     if (menuBtn && mobileMenu) {
@@ -44,7 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- 3. Carga Dinámica de Proyectos ---
     const proyectosContainer = document.getElementById('proyectos-container');
     if (proyectosContainer && typeof proyectos !== 'undefined') {
         function cargarProyectos() {
@@ -64,8 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         cargarProyectos();
     }
-    
-    // --- 4. Validación del Formulario de Contacto ---
+
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', (event) => {
@@ -74,11 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const mensaje = document.getElementById('mensaje').value.trim();
 
             if (!nombre || !email || !mensaje) {
-                // Previene el envío del formulario si hay campos vacíos
                 event.preventDefault();
                 alert('Por favor, completa todos los campos del formulario.');
             }
-            // Si todos los campos están llenos, el formulario se enviará a la URL de 'action'
         });
     }
 

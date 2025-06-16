@@ -1,10 +1,9 @@
-// js/habilidades.js
 
 const habilidades = [
   {
     nombre: "HTML 5",
     nivel: "Avanzado",
-    imagen: "./HTML.png" // Asegúrate que la ruta a tus imágenes sea correcta
+    imagen: "./HTML.png"
   },
   {
     nombre: "CSS",
@@ -17,9 +16,9 @@ const habilidades = [
     imagen: "./image.png"
   },
   {
-    nombre: "JavaScript", // Agregué JS como habilidad
+    nombre: "JavaScript",
     nivel: "Intermedio",
-    imagen: "./image1.png" // Necesitarás una imagen para JS
+    imagen: "./image1.png" 
   },
   {
     nombre: "WordPress",
