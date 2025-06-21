@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <script src="./main.js"></script>
+    <title>CARDS API JSON BASTIAN</title>
+</head>
+
+<body class="bg-gray-900 min-h-screen flex flex-col items-center p-4">
+
+    <h1 class="text-4xl font-extrabold text-gray-200 mb-8 mt-4 text-center">Usuarios de la API publica JSONPlaceholder</h1>
+    <p class="mb-7 text-white">Cada card contiene: Nombre, Usuario, Email, Empresa y Website</p>
+
+    <section id="contenedor-usuarios" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full max-w-6xl"></section>
+
+    <div id="mensaje-error" class="hidden bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mt-8" role="alert">
+        <strong class="font-bold">¡Error!</strong>
+        <span class="block sm:inline" id="texto-error"></span>
+    </div>
+
+</body>
+</html>
